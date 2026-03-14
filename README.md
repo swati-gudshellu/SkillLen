@@ -5,10 +5,6 @@
 SkillLen is a web application that analyzes a developer’s skills and suggests the most suitable career path such as Frontend, Backend, or Full-Stack Developer.
 The system also identifies missing skills and provides learning suggestions to help users improve their profile.
 
-## Live Demo
-
-Live Website: skilllen.netlify.app
-
 ## Features
 
 * User Authentication (Signup / Login / Password Reset)
