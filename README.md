@@ -35,18 +35,6 @@ Deployment:
 
 * Netlify
 
-## Project Structure
-
-skillsync-pro
-│
-├── index.html (Login / Signup page)
-├── skills.html (Skill selection page)
-├── dashboard.html (Skill analysis dashboard)
-├── style.css (UI styling)
-├── firebase.js (Firebase configuration)
-├── auth.js (Authentication logic)
-├── skills.js (Skill selection logic)
-└── dashboard.js (Skill analysis logic)
 
 ## How It Works
 
