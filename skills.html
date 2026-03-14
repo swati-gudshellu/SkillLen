@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Select Skills</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Select Role</h2>
+
+<select id="role" onchange="showSkills()">
+
+<option value="">Choose Role</option>
+<option value="frontend">Frontend Developer</option>
+<option value="backend">Backend Developer</option>
+<option value="fullstack">Full Stack Developer</option>
+
+</select>
+
+<h3>Select Your Skills</h3>
+
+<div id="skillContainer"></div>
+
+<button onclick="saveSkills()">Analyze Skills</button>
+
+</div>
+
+<script src="js/skills.js"></script>
+
+</body>
+</html>

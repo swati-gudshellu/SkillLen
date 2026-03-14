@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Dashboard</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="loadDashboard()">
+
+<div class="container">
+
+<h2>Skill Dashboard</h2>
+
+<h4 id="userEmail"></h4>
+
+<h3 id="scoreText"></h3>
+
+<div class="progress">
+<div id="progressBar"></div>
+</div>
+
+<h3>Skill Level</h3>
+<p id="skillLevel"></p>
+
+<h3>Best Career Fit</h3>
+<p id="careerFit"></p>
+
+<h3>Matched Skills</h3>
+<div id="matched"></div>
+
+<h3>Missing Skills</h3>
+<div id="missing"></div>
+
+<h3>Learning Recommendations</h3>
+<div id="learning"></div>
+
+<button onclick="logout()">Logout</button>
+
+</div>
+
+<script src="js/dashboard.js"></script>
+
+</body>
+</html>
